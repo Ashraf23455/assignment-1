@@ -23,7 +23,7 @@ nav div{
     flex: 1;
     /* border: 1px solid #1e2c47; */
 }
-ul{
+.menu{
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -71,8 +71,9 @@ ul li a{
 /* meet the speaker section */
 .container-top{
    text-align: center;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding-top: 80px;
+
+}
 
 .container-bottom{
     display: flex;
@@ -84,12 +85,126 @@ ul li a{
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    border: 1px solid #1e2c47;
+    padding-top: 50px;
+    
 }
 .container-bottom div img{
    max-width: 100%;
     
 }
-.container-bottom div p h2{
-    text-align: right
+.container-bottom div{
+    border: 1px solid #d9dcdf;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container-bottom div p{
+    text-align: left;
+    margin-left: 10px;
+}
+.container-bottom div h3{
+    text-align: left;
+    margin-left: 10px;
+}
+.p-color{
+    color: #1D4ED8;
+}
+/* end  */
+/* start pricing section */
+/* .standard{
+    border: 1px solid #d9dcdf;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.pricing{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+} */
+.pricing{
+    padding-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.standard{
+    border: 1px solid #d9dcdf;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.standard li a{
+    text-align: left;
+    color: #575757;
+    line-height: 2;
+}
+.price-btn{
+    font-size: 20px;
+    font-weight: 900px;
+    background-color: white;
+    color: #6D96F2;
+    width: 100%;
+    margin: 10px auto 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #1c3266
+    
+    
+}
+.pro{
+    background-color: #0D1B2A;
+    color: #FFFFFF;   
+    border: 1px solid #d9dcdf;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.pro li a{
+    text-align: left;
+    color: #575757;
+    line-height: 2;
+}
+.team{
+    border: 1px solid #d9dcdf;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+.team li a{
+    text-align: left;
+    color: #575757;
+    line-height: 2;
+    margin-left: 2px;
+}
+ul{
+    padding-left: 15px;
+}
+.pro button{!important
+    front-size: 20px;
+    font-weight: 900px;
+    background-color: #1D4ED8;
+    color: white;
+    margin-left: 10px auto 0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #1c3266
+    cursor: pointer
+}
+
+/* fotter */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:#0D1B2A;
+    color: #5E6671;
+    padding: 40px ;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
 }
